@@ -1,0 +1,10 @@
+# Welcome to hungers games:
+# Please fill in the info below;
+
+# Location where the 'lobby' / 'spawning' will be
+# Format: [x, y, z]
+# NOTE: in admin games, the admin will spawn here
+lobby-location: [0, 100, 0]
+
+# Default World border size
+world-border: 1000

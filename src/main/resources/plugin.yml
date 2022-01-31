@@ -1,0 +1,44 @@
+name: SimpleHungerGames
+version: 1.0.0
+main: me.mystc.simplehungergames.SimpleHungerGames
+api-version: 1.18
+authors: [mystc]
+description: Simple plugin for hunger games
+depend: [PowerCamera]
+commands:
+  setlocation:
+    description: set spawn locations
+    aliases: [sl, sloc, setloc]
+  play:
+    description: admins can start the game
+    aliases: [p]
+  freeze:
+    description: freeze people
+    aliases: [fr, pause]
+  locationreload:
+    description: reload locations file
+    aliases: [lrl, locationr, reloadlocation, reloadloc, rl]
+  end:
+    description: end game
+    aliases: [endgame, eg]
+  chest:
+    description: create loot chest
+    aliases: [createchest, createloot]
+  chestrefill:
+    description: refill chests
+    aliases: [refill, chestreset, resetchet, refillchest]
+  debug:
+    permission: hg.admin
+permissions:
+  hg.admin:
+    description: allows to do admin things
+    default: false
+  hg.setloc:
+    description: allows the use of /set location
+    default: op
+  hg.reload:
+    description: use the reload command
+    default: op
+  hg.chest:
+    description: allows use of chest command
+    default: op
